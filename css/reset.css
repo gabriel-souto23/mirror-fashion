@@ -1,0 +1,64 @@
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ul li {
+    display: inline;
+}
+.menu-opcoes ul li	{
+    display: inline;
+    margin-left: 20px;
+}
+.sacola	{
+    padding-top: 8px;
+}
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+.logotipo {
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+.quadrado {
+    background:	green;
+    height: 200px;
+    width: 200px;
+}
+.absoluto {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+.relativo {
+    position: relative;
+}
+header {
+    position: relative;
+}
+.menu-opcoes {
+    position:absolute;
+    bottom: 0;
+    right: 0;
+}.sacola {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
